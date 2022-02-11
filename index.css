@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* width: 370px; */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    /* width: 370px; */
+}
+
+ol li {
+    display: inline-flex;
+    align-items: center;
+    height: 50px;
+    background-color: white;
+    border-bottom: 1px solid #ededed;
+    width: 380px;
+    position: relative;
+}
+
+ol li nav .dp {
+    /* position: absolute; */
+    display: flex;
+    margin-left: 10px;
+    width: max-content;
+    /* background-color: green; */
+    align-items: center;
+}
+
+ol li nav .dp img {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+ol li nav .mes {
+    position: absolute;
+    display: inline;
+    left: 60px;
+    /* flex-direction: column; */
+    width: max-content;
+    align-items: center;
+    top: 9px;
+    bottom: 0px;
+    text-align: left;
+    justify-content: left;
+    margin-right: auto;
+}
+
+ol li nav .mes #p1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+ol li nav .mes p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 11px;
+    color: gray;
+}
+
+ol {
+    height: 84vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+header nav {
+    background-color: #086e62;
+    display: flex;
+}
+
+.man {
+    height: 20px;
+    background-color: #086e62;
+}
+
+#nav1 {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+#nav1 p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-left: 9px;
+}
+
+#nav1 #search {
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    right: 50px;
+}
+
+#nav1 #dot {
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    right: 25px;
+}
+
+#nav2 {
+    color: white;
+    cursor: pointer;
+    display: flex;
+    font-size: 19px;
+    height: 7vh;
+    align-items: center;
+}
+
+.para {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    font-size: 19px;
+}
+
+#nav2 i {
+    padding-left: 10px;
+}
+
+.para p:hover {
+    border-bottom: 2px solid #fff;
+    /* width: 90px; */
+}
